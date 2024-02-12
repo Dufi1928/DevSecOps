@@ -27,6 +27,7 @@ a {
     object-fit: cover;
 }
 .info{
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
 }

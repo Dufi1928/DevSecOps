@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffcc;
+}
+
+.cv-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cv-section img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    border: 3px solid #ff00ff;
+    animation: shake 0.8s infinite alternate;
+}
+
+h1 {
+    color: #ff00ff;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 0px #00ff00;
+}
+
+p {
+    color: #0000ff;
+    font-size: 18px;
+    text-shadow: 2px 2px 0px #ff0000;
+}
+
+.experience, .diplomes {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff0000;
+    font-size: 24px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0px #ffff00;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #00ff00;
+    font-size: 16px;
+    margin-bottom: 10px;
+    animation: neon 1s infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    }
+    to {
+        text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+    }
+}
+
+@keyframes shake {
+    from {
+        transform: rotate(-5deg);
+    }
+    to {
+        transform: rotate(5deg);
+    }
+}

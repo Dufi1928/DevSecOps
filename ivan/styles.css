@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, .competences, .experience, .formation, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #333333;
+}
+
+a {
+    color: #0066cc;
+}
+
+.info p, .competences ul, .experience p, .formation p, footer p {
+    line-height: 1.6;
+}
